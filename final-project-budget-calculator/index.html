@@ -1,0 +1,147 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,600" rel="stylesheet" type="text/css">
+  <link href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+  <link type="text/css" rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="favicon.png">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js" integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ=" crossorigin="anonymous"></script>
+  <title>Budgety</title>
+  <script defer src="app.js"></script>
+</head>
+
+<body>
+
+  <div class="top">
+    <div class="budget">
+      <div class="budget__title">
+        Available Budget in <span class="budget__title--month">April 2020</span>:
+      </div>
+
+      <div class="budget__value">+ $225.10</div>
+
+      <div class="budget__income">
+        <div class="budget__income--text">Income</div>
+        <div class="right">
+          <div class="budget__income--value">+ $580.09</div>
+          <div class="budget__income--percentage">&nbsp;</div>
+        </div>
+      </div>
+
+      <div class="budget__expenses">
+        <div class="budget__expenses--text">Expenses</div>
+        <div class="right">
+          <div class="budget__expenses--value">- $354.99</div>
+          <div class="budget__expenses--percentage">61%</div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="bottom">
+    <div class="add">
+      <div class="add__container">   
+        <input type="text" class="add__description" placeholder="Add description">
+        <input type="number" class="add__value" placeholder="Value">
+        <button class="add__btn"><i class="ion-ios-checkmark-outline"></i></button>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="income">
+        <h2 class="icome__title">Income</h2>
+        <div class="income__list">
+          <div class="item" data-transaction-id="0">
+            <div class="item__description">Paycheque</div>            
+            <div class="right">
+              <div class="item__value">+ $250.55</div>
+              <div class="item__delete">
+                <button class="item__delete--btn">
+                  <i class="ion-ios-close-outline"></i>
+                </button>
+              </div>
+            </div>
+            <div class="item__date">Apr. 21st, 2020</div>
+      </div>
+      <div class="item" data-transaction-id="1">
+        <div class="item__description">Cheque from Grandma</div>            
+        <div class="right">
+          <div class="item__value">+ $5.55</div>
+          <div class="item__delete">
+            <button class="item__delete--btn">
+              <i class="ion-ios-close-outline"></i>
+            </button>
+          </div>
+        </div>
+        <div class="item__date">Apr. 21st, 2020</div>
+      </div><div class="item" data-transaction-id="2">
+        <div class="item__description">Tax Refund</div>            
+        <div class="right">
+          <div class="item__value">+ $323.99</div>
+          <div class="item__delete">
+            <button class="item__delete--btn">
+              <i class="ion-ios-close-outline"></i>
+            </button>
+          </div>
+        </div>
+        <div class="item__date">Apr. 21st, 2020</div>
+      </div></div>
+      </div>
+
+      <div class="expenses">
+        <h2 class="expenses__title">Expenses</h2>
+        <div class="expenses__list">
+          <div class="item" data-transaction-id="4">
+          <div class="item__description">Car Payment </div>
+          <div class="right">
+            <div class="item__value">- $299.99</div>
+            <div class="item__percentage">52%</div>
+            <div class="item__delete">
+              <button class="item__delete--btn"><i class="ion-ios-close-outline"></i></button>
+            </div>
+          </div>
+          <div class="item__date">Apr. 21st, 2020</div>
+      </div>
+      <div class="item" data-transaction-id="5">
+        <div class="item__description">Dinner with Friends</div>
+        <div class="right">
+          <div class="item__value">- $55.00</div>
+          <div class="item__percentage">9%</div>
+          <div class="item__delete">
+            <button class="item__delete--btn"><i class="ion-ios-close-outline"></i></button>
+          </div>
+        </div>
+        <div class="item__date">Apr. 21st, 2020</div>
+      </div></div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+<!-- <div class="item" data-transaction-id="0">
+  <div class="item__description">Paycheque</div>            
+  <div class="right">
+    <div class="item__value">+ $250.55</div>
+    <div class="item__delete">
+      <button class="item__delete--btn">
+        <i class="ion-ios-close-outline"></i>
+      </button>
+    </div>
+  </div>
+  <div class="item__date">Apr. 21st, 2020</div>
+</div> -->
+
+<!-- <div class="item" data-transaction-id="4">
+  <div class="item__description">Car Payment </div>
+    <div class="right">
+      <div class="item__value">- $299.99</div>
+      <div class="item__percentage">52%</div>
+        <div class="item__delete">
+          <button class="item__delete--btn"><i class="ion-ios-close-outline"></i></button>
+        </div>
+    </div>
+  <div class="item__date">Apr. 21st, 2020</div>
+</div> -->
