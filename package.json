@@ -1,0 +1,22 @@
+{
+  "name": "final-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/qingmingli001/budget-calculator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qingmingli001/budget-calculator/issues"
+  },
+  "homepage": "https://github.com/qingmingli001/budget-calculator#readme",
+  "dependencies": {
+    "gulp": "^4.0.2"
+  }
+}
